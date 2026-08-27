@@ -5,7 +5,7 @@ on:
     branches: ["main"]
 
 permissions:
-  contacts: read
+  contents: read
   packages: write
 
 jobs:
