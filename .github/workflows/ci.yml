@@ -39,4 +39,4 @@ jobs:
          push: true
          tags:  |
            ghcr.io/vero0996/ad2026-app-base:latest
-           ghcr.io/<username_lowercase>/<reponame_lowercase>:${{ env. SHORT_SHA }} 
+           ghcr.io/vero0996/ad2026-app-base:${{ env. SHORT_SHA }} 
